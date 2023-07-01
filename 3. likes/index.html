@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="principalContainer">
+        <div class="header">
+            <h1 id="network">Network</h1>
+        </div>
+        <div class="title">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="body box row">
+            <div class="profileContainer col1">
+                <div class="profile">
+                    <img src="user-circle.png" alt="user pic">
+                    <a href="#">Add an avatar</a>
+                    <h4>James Doe</h4>
+                </div>
+            </div>
+            <div class="boxs col2">
+                <div class="post">
+                    <div class="headerPost">
+                        <div class="name">
+                            <h3>Neil M</h3>
+                        </div>
+                        <div class="reactions">
+                            <p><span id="likes1">9</span> Like(s)</p>
+                            <button class="btn" onclick="addLikes1()">Like</button>
+                        </div>
+                    </div>
+                    <div class="postContent">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="headerPost">
+                        <div class="name">
+                            <h3>Nichole K</h3>
+                        </div>
+                        <div class="reactions">
+                            <p><span id="likes2">12</span> Like(s)</p>
+                            <button class="btn" onclick="addLikes2()">Like</button>
+                        </div>
+                    </div>
+                    <div class="postContent">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="headerPost">
+                        <div class="name">
+                            <h3>Jim R</h3>
+                        </div>
+                        <div class="reactions">
+                            <p><span id="likes3">9</span> Like(s)</p>
+                            <button class="btn" onclick="addLikes3()">Like</button>
+                        </div>
+                    </div>
+                    <div class="postContent">
+                        <p>I can't stop listeing the <a href="#">new album</a>.<br> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
