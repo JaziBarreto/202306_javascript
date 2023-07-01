@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <header class="navbar">
+            <h1>Dojonary</h1>
+            <input type="search" placeholder="Search">
+            <button id="login" class="btn" onclick="changeLogin()">Login</button>
+        </header>
+        <section class="row">
+            <div class="col1">
+                <div class="word">
+                    <div class="part1">
+                        <h3>ninja</h3>
+                        <p><span style="font-weight: bold";>noun</span></p>
+                        <p>plural: <span style="font-style: italic";>ninjas</span></p>
+                        <button class="btn btnWord" onclick="alertLike()">13 likes</button>
+                    </div>
+                    <div class="part2">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="word">
+                    <div class="part1">
+                        <h3>ninja</h3>
+                        <p><span style="font-weight: bold";>noun</span></p>
+                        <p>plural: <span style="font-style: italic";>ninjas</span></p>
+                        <button class="btn btnWord" onclick="alertLike()">37 likes</button>
+                    </div>
+                    <div class="part2">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                    <p>The dictionary is defined by <strong>YOU</strong></p>
+                    <button id="addBoton" class="btn btn2" onclick="deleteBoton()">Add definition</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
