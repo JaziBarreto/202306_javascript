@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.principalContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #159d9d;
+    height: 170px;
+    width:-webkit-fill-available;
+}
+
+/*header starts*/
+/*Buton DONATE dissapear*/
+.hidden{
+    display: none;
+}
+
+.img {
+    width: 60px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    color: white;
+    /* background-color: #159d9d; */
+}
+
+.little-img {
+    width: 30px;
+}
+
+.form-box{
+    border: 2px solid;
+}
+
+.header-level1, .header-level2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 85px;
+    margin-right: 85px;
+    color: white;
+}
+
+.header-level2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.header-box1{
+    margin-left: 50px;
+}
+
+.header-box3{
+    margin-right: 50px;
+}
+
+.main-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    list-style: none;  /*para eliminar las vinhetas*/
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav-links a {
+    color: rgb(14, 2, 2);
+    text-decoration: none;
+}
+
+
+.part1{
+    margin-bottom: 6px;
+}
+
+.part2{
+    display: flex;
+}
+/*header end*/
+/*buttons*/
+.btnDonate{
+    border: 3px solid rebeccapurple;
+    border-radius: 50%;
+    padding: 6px 12px;
+    font-size:17px;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0);
+    color: rebeccapurple;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnDonate:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.btnFind{
+    background-color:#b11fb2 ;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 0;
+    padding: 6px 20px;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btnFind:hover{
+    color:#b11fb2;
+    background-color: white;
+}
+
+.btn {
+    background-color:#159d9d;;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 0;
+    padding: 6px 40px;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #159d9d;
+}
+/*buttons ends*/
+/*body starts*/
+.pet-img {
+    width:130px;
+    padding: 10px 10px;
+}
+
+.first-column{
+    display: flex;
+}
+
+.pets {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.headerPost, .reactions {
+    margin: 12px;
+    margin-top: 12px;
+}
+
+.reactions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 51px;
+}
+.reactions p{
+    margin-bottom: 5px;
+}
+
+.postContent {
+    margin-top: 12px;
+}

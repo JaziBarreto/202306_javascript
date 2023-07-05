@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="principalContainer">
+        <!-- header starts-->
+        <div class="main-header">
+            <div class="header-level1">
+                <div class="main-title">
+                    <img src="assets/heart-light.png" alt="heart logo" class="img">
+                    <h1 id="name">Pet Shelter</h1>
+                </div>
+                <div class="nav-links-box">
+                    <ul class="nav-links">
+                        <li><a href="#">Find a Pet</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><button class="btnDonate" onclick="removeBtn(this)">Donate</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-level2">
+                <div class="header-box1">
+                    <div class="part1">
+                        <h4>I'm looking for a...</h4>
+                    </div>
+                    <div class="part2">
+                        <img src="assets/paw-light.png" alt="paw logo" class="little-img">
+                    <select name="pets" class="form-box" onchange="showSelectedOption(this)">
+                        <option>Any pets</option>
+                        <option>Dogs</option>
+                        <option>Cats</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="header-box2">
+                    <div class="part1">
+                        <h4>in or near...</h4>
+                    </div>
+                    <div class="part2">
+                        <img src="assets/pin-light.png" alt="pin logo" class="little-img">
+                    <input type="text" name="location" placeholder=" City or zip code" class="form-box">
+                    </div>
+                </div>
+                <div class="header-box3">
+                    <button class="btnFind">Find your new best friend</button>
+                </div>
+            </div>
+        </div>
+        <!-- header ends-->
+        <!-- body content starts-->
+        <div class="boxy box row">  <!--father -->
+            <div class="boxs column2">
+                <div class="pets"> <!--first pet box -->
+                    <div class="first-column">
+                        <div class="picPost">
+                            <img src="assets/pepper.jpg" alt="pepper cat" class="pet-img">
+                        </div>
+                        <div class="headerPost">
+                            <div class="name">
+                                <h2>Pepper</h2>
+                            </div>
+                            <div class="postContent">
+                                <p>Pepper is a slightly shy grey tobby, but she <br> really loves showing her human affection.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reactions">
+                        <p><span id="likes1">3</span> petting(s)</p>
+                        <button class="btn" onclick="addLikes1()">Pet Pepper</button>
+                    </div>
+                </div>
+                <div class="pets"> <!--second pet box -->
+                    <div class="first-column">
+                        <div class="picPost">
+                            <img src="assets/bruce.jpg" alt="bruce dog" class="pet-img">
+                        </div>
+                        <div class="headerPost">
+                            <div class="name">
+                                <h2>Bruce</h2>
+                            </div>
+                            <div class="postContent">
+                                <p>Bruce is a loyal companion. He loves long <br> walks and cold weather.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reactions">
+                        <p><span id="likes2">5</span> petting(s)</p>
+                        <button class="btn" onclick="addLikes2()">Pet Bruce</button>
+                    </div>
+                </div>
+                <div class="pets"> <!--third pet box -->
+                    <div class="first-column">
+                        <div class="picPost">
+                            <img src="assets/oscar.jpg" alt="oscar dog" class="pet-img">
+                        </div>
+                        <div class="headerPost">
+                            <div class="name">
+                                <h2>Oscar</h2>
+                            </div>
+                            <div class="postContent">
+                                <p>Oscar is bright, energetic and friendly. He is <br> looking for a good home.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reactions">
+                        <p><span id="likes3">8</span> petting(s)</p>
+                        <button class="btn" onclick="addLikes3()">Pet Oscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- body content ends-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
