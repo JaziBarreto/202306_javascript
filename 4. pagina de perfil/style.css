@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.picUser {
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.controls {
+    height: 25px;
+    margin: 5px;
+}
+
+/* home */
+
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 20px;
+    flex: 3;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 20px;
+    flex: 2;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 107px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+h1, ul {
+    margin-inline: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color:rgb(18, 155, 189);
+    color: white;
+    border: solid 2px black;
+    border-radius: 0;
+    padding: 2px 20px;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0);
+    margin-right: 150px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(18, 155, 189);
+    background-color: black;
+}
+
+/* tarjeta perfil */
+
+.container {
+    height: 300px;
+    width: 500px;
+    background-color: aliceblue;
+    border: 2px solid grey
+}
+
+.controls{
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0);
+}
+
+
+.userPic {
+    height: 60px;
+    position: absolute;
+    top: 105px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.map, .gear {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.background {
+    background-color: rgb(1, 196, 196);
+    height: 60px;
+}
+
+.location {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info p {
+    margin: 10px;
+}
+
+.links {
+    color: blue;
+    text-decoration: underline;
+}
+
+.userName {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    margin-left: 10px;
+}
+
+/* col 2 */
+
+.containerConection, .yourConecContainer {
+    background-color: aliceblue;
+    width: 260px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+.headerConection {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: -webkit-fill-available;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding-left: 20px;
+}
+
+.numberConection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.conectionUser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Icons {
+    display: flex;
+    justify-content: end;
+}
+
+/* Education */
+
+.containerEducation {
+    height: 250px;
+    width: 500px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    border: 2px solid grey;
+}
+
+.educationHeader {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+
+.educationHeader h3 {
+    margin-left: 10px;
+}
+
+.dataEdu {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.date {
+    color: rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* your connections  */
+
+.yourConecConatainer {
+    background-color: aliceblue;
+    width: 260px;
+    margin-top: 35px;
+}
+
+.yourHeader {
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+.yourHeader {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.numberYour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    width: 40px;
+    height: 25px;
+}
+
+.conectionUser2 {
+    display: flex;
+    align-items: center;
+}
+
+.viewMore {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+}
+
+.viewMore a{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Connections</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="nav-links">
+            <h1 class="nav-title">Perfil</h1>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Encontrar conexiones</a></li>
+        </ul>
+        <li><button class="btn">Cerrar sesión</button></li>
+    </div>
+
+    <div class="homeContainer">
+        <div class="col1">
+            <div class="container">
+                <div class="background"></div>
+                <img class="userPic" src="images/jane-m.jpg" alt="">
+                <div class="data">
+                    <p class="userName">Jane Doe</p>
+                    <div class="location">
+                        <img class="map" src="icons/map-marker.png" alt="">
+                        <p>Seattle</p>
+                    </div>
+                    <div class="info">
+                        <p>Developer | enginer | Problem Solver</p>
+                        <p>Master of shadows and internet</p>
+                    </div>
+                    <div class="edit">
+                        <img class="gear" src="icons/gear.png" alt="">
+                        <a onclick="changeName()" class="links" href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerEducation">
+                <div class="educationHeader">
+                    <h3>Education</h3>
+                </div>
+                <div class="dataEdu">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p class="date">Dec 2019 - Mar 2020</p>
+                    <p><strong>Triple black belt in Python, MERN, and c#...</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div class="containerConection">
+                <div class="headerConection">
+                    <div class="numberConection">
+                        <p id="pNumberConection">2</p>
+                    </div>
+                    <p>Conection Requests</p>
+                </div>
+                <div id="conectionUser1" class="conectionUser">
+                    <img class="picUser" src="images/todd-s.jpg" alt="">
+                    <p>Todd E</p>
+                    <div class="Icons">
+                        <img onclick="aceptConection(conectionUser1)" class="controls" src="icons/accept-circle.png" alt="">
+                        <img onclick="nonConection(conectionUser1)" class="controls" src="icons/close-circle.png" alt="">
+                    </div>
+                </div>
+                <div id="conectionUser2" class="conectionUser">
+                    <img class="picUser" src="images/phil-s.jpg" alt="">
+                    <p>Phil K</p>
+                    <div class="Icons">
+                        <img onclick="aceptConection(conectionUser2)" class="controls" src="icons/accept-circle.png" alt="">
+                        <img onclick="nonConection(conectionUser2)" class="controls" src="icons/close-circle.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="yourConecContainer">
+                <div class="yourHeader">
+                    <div class="numberYour">
+                        <p id="pNumberConectionsTotal">430</p>
+                    </div>
+                    <h4>Your Connections</h4>
+                </div>
+                <div class="conectionUser2">
+                    <img class="picUser" src="images/adrien-s.jpg" alt="">
+                    <p>Adrien D</p>
+                </div>
+                <div class="conectionUser2">
+                    <img class="picUser" src="images/anne-s.jpg" alt="">
+                    <p>Anne J</p>
+                </div>
+                <div class="conectionUser2">
+                    <img class="picUser" src="images/alayne-s.jpg" alt="">
+                    <p>Alayne T</p>
+                </div>
+                <div class="conectionUser2">
+                    <img class="picUser" src="images/arry-s.jpg" alt="">
+                    <p>Arry Y</p>
+                </div>
+                <div class="viewMore">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
