@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Boton */
+.btn {
+    background-color:cornflowerblue;
+    color: white;
+    border: solid 2px black;
+    border-radius: 0;
+    padding: 2px 20px;
+    box-shadow: 5px 6px 0px -2px rgb(0, 0, 0); 
+    font-weight: bolder;
+}
+
+.btn:hover{
+    color: cornflowerblue;
+    background-color: white;
+    cursor: pointer;
+}
+/* Filas  */
+.row {
+    display: flex;
+}
+/* columnas */
+.col {
+    flex: 1;
+}
+/* barra de navegacion */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    height: 60px;
+    align-items: center;
+}
+/* centrar  */
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+

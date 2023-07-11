@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerItems">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li>
+                    <a onclick="alert('Cargando informe meteorológico…')" href="#">Burbank</a>
+                </li>
+                <li>
+                    <a onclick="alert('Cargando informe meteorológico…')" href="#">Chicago</a>
+                </li>
+                <li>
+                    <a onclick="alert('Cargando informe meteorológico…')" href="#">Dallas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="page">
+        <div class="city">
+            <h2>San Jose</h2>
+            <div class="temperatureChange">
+                <p>Show al temperature in</p>
+                <select onchange="changeToF()">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="dayCards">
+        <div class="card">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="rain icon">
+            <p>Some Rain</p>
+            <div class="temps">
+                <p id="max1" class="max">24°</p>
+                <p id="min1" class="min">18°</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="sun icon">
+            <p>Some Sun</p>
+            <div class="temps">
+                <p id="max2" class="max">27°</p>
+                <p id="min2" class="min">19°</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png" alt="clouds icon">
+            <p>Some Clouds</p>
+            <div class="temps">
+                <p id="max3" class="max">21°</p>
+                <p id="min3" class="min">16°</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="sun icon">
+            <p>some sun</p>
+            <div class="temps">
+                <p id="max4" class="max">26°</p>
+                <p id="min4" class="min">21°</p>
+            </div>
+        </div>
+    </div>
+    <div class="cookiesContainer">
+        <div class="cookies">
+            <div class="img">
+                <img id="cookie" src="assets/cookie.png" alt="cookie alert">
+            </div>
+            <div class="message">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize contect and ads, to provide social media features and to analyse our traffic. <a id="readMore" href="#">Read more...</a></p>
+            </div>
+            <div class="buttonContainer">
+                <button onclick="removeCookie()" class="btn">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

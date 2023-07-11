@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 110px;
+    border-radius: 50%;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+/* header  */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(43, 195, 255);
+    height: 70px;
+}
+
+header * {
+    margin: 10px;
+}
+
+.headerItems {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* cities */
+
+.city, .temperatureChange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    width: 700px;
+}
+
+.city * {
+    margin: 10px;
+}
+
+hr {
+    background-color: black;
+    height: 3px;
+    width: 700px;
+    margin-left: 290px;
+
+}
+
+/* cards of weather  */
+
+.dayCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    height: 280px;
+    width: 150px;
+    margin: 10px;
+}
+
+.card h3, .card p {
+    margin: 10px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.max {
+    color: red;
+    font-weight: bold;
+}
+
+.min {
+    color: blue;
+    font-weight: bold;
+}
+
+/* cookies  */
+
+.cookiesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cookies {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 700px;
+    background-color: rgb(238, 238, 238);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cookie {
+    height: 65px;
+    margin: 10px;
+}
+
+#readMore {
+    color: blue;
+    font-size: 16px;
+}
+
+.buttonContainer{
+    margin-left: 10px;
+}
